@@ -51,3 +51,5 @@ touch details.txt etc
 
 # for show last two commit in git 
 => git log -p -2
+
+// press Q key for back to terminal
