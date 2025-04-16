@@ -1,0 +1,53 @@
+# give your identify to Git :
+=> git config --global user.name Lima
+
+# and see your name to git 
+=> git config --global user.name
+
+# give your gmail to Git :
+=> git config --global user.email limajannat1675@gmail.com
+
+# and know see your email address to git 
+=> git config --global user.email
+
+=> clear command [ clear ]
+
+# for show all file 
+=> ls 
+
+# for show all hide file
+=> ls -lart
+
+# for create a new file
+=> touch index.html, 
+touch details.txt etc
+
+# see the present situation in project
+=> git status
+
+# go to all file git stage
+=> git add -A
+
+# for reset all file
+=> git reset
+
+# go to selected (css folder) folder git stage
+=> cd css
+=> git add .
+
+# for back file or folder location
+=> cd ..
+
+# delete howa file ba folder back anar command
+=> git checkout -f 
+# delete howa file er code back anar jonno
+=> git checkout [delete howa file name like index.html]
+
+# for show all details about git
+=> git log
+
+# for show last one commit in git 
+=> git log -p -1
+
+# for show last two commit in git 
+=> git log -p -2
